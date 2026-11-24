@@ -1,0 +1,1056 @@
+# IMMERSIVE CINEMA 5 — Photorealistic Interactive Virtual Cinema Experience
+
+## 01. Project Vision
+
+Act as a multidisciplinary team consisting of:
+
+- Senior Unreal Engine 5 Developer.
+- AAA Game Environment Artist.
+- Architectural Visualization Specialist.
+- Cinematic Lighting Artist.
+- 3D Technical Artist.
+- Virtual Reality Developer.
+- Full-Stack Software Engineer.
+- UX/UI and Customer Experience Designer.
+
+Build a complete, next-generation, photorealistic, interactive virtual cinema experience inspired by the attached reference video.
+
+Analyze the reference video carefully, understand its seat selection and immersive viewing experience, and transform the concept into a significantly larger, more realistic, more sophisticated and fully interactive cinema environment.
+
+The experience should allow customers to virtually visit a cinema, explore its facilities, select their seats, experience the actual viewing perspective before booking, watch video content, control the auditorium lighting and navigate throughout the entire building.
+
+This is not a traditional cinema booking website.
+
+This is a fully interactive digital twin-style cinema experience combining architectural visualization, real-time 3D rendering, virtual reality, entertainment and interactive booking.
+
+Visual quality is the highest priority.
+
+## 02. Core Rendering Engine — Unreal Engine 5
+
+Use Unreal Engine 5 as the primary 3D engine and rendering runtime.
+
+Target the visual quality of AAA games, premium architectural visualization and cinematic environments.
+
+Utilize the following technologies where supported:
+
+- Nanite Virtualized Geometry.
+- Lumen Global Illumination.
+- Lumen Reflections.
+- Hardware Ray Tracing.
+- Virtual Shadow Maps.
+- Temporal Super Resolution.
+- Physically Based Rendering.
+- High-resolution PBR materials.
+- 4K and 8K textures where appropriate.
+- Volumetric lighting.
+- Realistic indirect lighting.
+- Physically accurate shadows.
+- Contact shadows.
+- Reflection systems.
+- Ambient occlusion.
+- Cinematic depth of field.
+- Filmic tone mapping.
+- Dynamic exposure adaptation.
+- High-quality anti-aliasing.
+- Subtle bloom.
+- Cinematic color grading.
+- Unreal Engine Movie Render Queue for cinematic previews.
+- OpenXR for immersive VR experiences.
+
+Use professional assets from Fab, Megascans and other appropriately licensed external 3D asset libraries.
+
+Download, install, configure and integrate any compatible external libraries, plugins, shaders, textures, 3D models, rendering frameworks and dependencies necessary to achieve the highest possible visual quality.
+
+Do not limit the project to default engine assets or basic procedural geometry.
+
+Do not use low-poly furniture, primitive chairs, cartoonish environments, flat textures or unrealistic placeholder objects.
+
+Every architectural element must appear professionally designed and physically believable.
+
+## 03. Cinema Building Architecture
+
+Design a large, luxurious, contemporary standalone cinema complex inspired by premium IMAX-style, Dolby Cinema and modern international cinema environments.
+
+Create a complete architectural environment, including:
+
+### Exterior
+
+- Modern architectural facade.
+- Large illuminated cinema signage.
+- Glass entrance doors.
+- Outdoor movie advertising screens.
+- Digital movie posters.
+- Architectural exterior lighting.
+- Landscaping.
+- Pedestrian walkways.
+- Drop-off area.
+- Parking area.
+- Accessible parking spaces.
+- Exterior seating.
+- Realistic surrounding environment.
+- Daytime and nighttime exterior appearances.
+
+### Main Lobby
+
+- Spacious double-height entrance lobby.
+- Premium marble and stone flooring.
+- Contemporary ceiling architecture.
+- Ticket reception counters.
+- Self-service booking kiosks.
+- Digital movie displays.
+- Large LED advertising screens.
+- Waiting areas.
+- Luxury seating.
+- Popcorn counters.
+- Beverage counters.
+- Food and snack displays.
+- VIP reception.
+- VIP lounge.
+- Restrooms.
+- Accessible restrooms.
+- Directional signage.
+- Corridors connecting all facilities.
+
+The lobby must feel like a real premium commercial cinema, not an empty architectural shell.
+
+## 04. Main Cinema Auditorium
+
+Create a large premium auditorium containing approximately 350 seating positions.
+
+Use approximately 18–20 rows, distributed across multiple seating sections with realistic aisles and accessible circulation routes.
+
+Include:
+
+- Standard seating.
+- Premium seating.
+- VIP reclining seats.
+- Luxury leather seats.
+- Couple seats.
+- Wheelchair-accessible spaces.
+- Companion seating.
+- Stadium-style elevated seating.
+- Realistic floor slopes.
+- Properly dimensioned stairs.
+- Multiple entrances.
+- Multiple emergency exits.
+- Accessible pathways.
+- Handrails.
+- Illuminated stair edges.
+- Illuminated seat numbers.
+- Row identification signs.
+- Large cinematic projection screen.
+- Surround sound speakers.
+- Acoustic wall panels.
+- Ceiling acoustic treatments.
+- Integrated architectural lighting.
+- Projection room.
+- Technical control room.
+- Realistic wall and ceiling materials.
+- Premium carpet flooring.
+
+Design the seating layout to provide believable viewing angles and minimize visual obstructions.
+
+Use realistic architectural dimensions and human-scale proportions.
+
+The auditorium must feel large, impressive, spacious and visually premium.
+
+## 05. Professional 3D Seat Models
+
+Cinema seats are a critical visual component.
+
+Use professionally designed, highly detailed 3D seat models with:
+
+- Realistic leather or fabric upholstery.
+- Visible stitching.
+- Cushion deformation details.
+- Armrests.
+- Cup holders.
+- Reclining mechanisms.
+- Metal and plastic structural components.
+- Accurate material roughness.
+- Realistic reflections.
+- Contact shadows.
+- Individual seat numbers.
+- Different designs for Standard, Premium and VIP categories.
+
+VIP seats should feature larger reclining chairs with premium materials, additional personal space and optional side tables.
+
+Avoid using simple boxes, cylinders or primitive geometry to represent cinema seats.
+
+## 06. Interactive Seat Selection and Booking
+
+Create a fully synchronized 2D and 3D seat selection system.
+
+Every seating position must have:
+
+- Unique seat ID.
+- Row number.
+- Seat number.
+- Seating category.
+- Ticket price.
+- Availability status.
+- Exact 3D coordinates.
+- Camera position.
+- Viewing direction.
+- Accessibility information.
+
+Support the following seat states:
+
+- Available.
+- Reserved.
+- Selected.
+- Unavailable.
+- Premium.
+- VIP.
+- Accessible.
+
+Users must be able to select seats from either the 2D seating map or directly inside the 3D auditorium.
+
+When a user selects a seat:
+
+1. Highlight the selected seat.
+2. Smoothly move the camera toward the seat.
+3. Position the camera at a realistic seated human eye level.
+4. Automatically orient the camera toward the cinema screen.
+5. Allow the user to look around freely.
+6. Display seat details and ticket price.
+7. Display distance from the screen.
+8. Display horizontal and vertical viewing angles.
+9. Display the nearest entrance and exit.
+10. Allow the user to confirm or change the selected seat.
+
+Support multiple-seat selection and adjacent-seat recommendations.
+
+Allow users to compare two or more seating positions before booking.
+
+Provide an interactive side-by-side comparison of viewing perspectives from different seats.
+
+The 2D seating map and 3D environment must always remain synchronized.
+
+## 07. Realistic Seat View Experience
+
+The seat preview must represent what a real customer would see while sitting in the selected seat.
+
+Accurately simulate:
+
+- Human seated eye height.
+- Viewing distance.
+- Screen perspective.
+- Screen viewing angle.
+- Vertical viewing angle.
+- Surrounding seats.
+- Seats in front of the customer.
+- Aisles and walkways.
+- Potential visual obstructions.
+- Architectural elements.
+- Accessibility considerations.
+
+Allow the user to rotate the camera horizontally and vertically.
+
+Provide a button called "Preview My Seat".
+
+Provide another button called "Compare Seats".
+
+Allow users to switch between standard, premium and VIP seating perspectives.
+
+Camera transitions must be smooth, cinematic and physically believable.
+
+Avoid abrupt camera jumps, clipping through seats or unrealistic camera positioning.
+
+## 08. Interactive Cinema Screen and YouTube Integration
+
+Create a functional giant cinema screen integrated into the 3D auditorium.
+
+Add a dedicated control panel allowing users to paste a YouTube video URL.
+
+Support standard YouTube URLs, shortened YouTube URLs and embeddable video links.
+
+Include:
+
+- YouTube URL input.
+- Load video.
+- Play.
+- Pause.
+- Resume.
+- Restart.
+- Seek forward.
+- Seek backward.
+- Playback progress.
+- Volume control.
+- Mute.
+- Video quality selection where supported.
+- Fullscreen playback.
+- Change video.
+- Clear video.
+- Supported direct MP4 video URL.
+- Local video file upload where technically supported.
+
+For direct video sources, use Unreal Engine Media Framework and Media Textures.
+
+The video must appear on the actual physical cinema screen inside the 3D environment.
+
+It must maintain the correct screen proportions, viewing perspective and spatial positioning when users move around the auditorium.
+
+For YouTube playback, use the official YouTube IFrame Player API and supported embedding mechanisms.
+
+Implement a perspective-correct browser-side player integration synchronized with the Unreal Engine camera and Pixel Streaming experience where technically feasible.
+
+Do not bypass YouTube embedding restrictions, copyright protections, DRM or cross-origin security policies.
+
+If reliable perspective-correct YouTube integration is unavailable, provide an explicitly labeled supported playback alternative rather than pretending that the video is rendered inside Unreal Engine.
+
+For supported Media Texture sources, simulate realistic screen illumination affecting:
+
+- Nearby seats.
+- Auditorium walls.
+- Ceiling surfaces.
+- Carpet.
+- Audience characters.
+- Surrounding architectural elements.
+
+The cinema screen should behave like a real illuminated projection screen.
+
+## 09. Advanced Dynamic Lighting System
+
+Create a professional real-time lighting control system.
+
+All lighting controls must affect the actual Unreal Engine environment.
+
+Include the following lighting presets:
+
+### Full Lights
+
+All architectural lighting is enabled, allowing users to inspect the complete auditorium.
+
+### Pre-Show Mode
+
+Warm ambient lighting with illuminated seats, aisles and architectural details.
+
+### Movie Mode
+
+Smoothly dim the auditorium lighting while maintaining realistic screen illumination and essential aisle lighting.
+
+### Intermission Mode
+
+Medium-intensity lighting allowing customers to move comfortably throughout the auditorium.
+
+### Cleaning Mode
+
+Bright, functional lighting throughout the entire auditorium.
+
+### Emergency Mode
+
+Activate emergency exit signs, designated emergency lighting and simulated evacuation route guidance.
+
+### Custom Mode
+
+Allow independent manual adjustment of all major lighting systems.
+
+Provide individual controls for:
+
+- Ceiling lights.
+- Wall lights.
+- LED strips.
+- Staircase lighting.
+- Aisle lighting.
+- Seat lighting.
+- Emergency lighting.
+- Exit signs.
+- Screen brightness.
+- Ambient lighting.
+- Exposure.
+- Light intensity.
+- Color temperature.
+- Lighting colors.
+- Exterior lighting.
+- Lobby lighting.
+
+Use smooth animated lighting transitions.
+
+Maintain realistic indirect lighting, shadows and reflections.
+
+Avoid excessively dark environments, crushed blacks, overexposed surfaces, artificial colors and excessive bloom.
+
+Even in Movie Mode, important architectural details should remain naturally visible.
+
+## 10. Free Exploration and First-Person Navigation
+
+Allow users to freely walk throughout the entire cinema building.
+
+Implement a realistic first-person navigation system using Unreal Engine.
+
+Support:
+
+- Keyboard and mouse.
+- WASD movement.
+- Arrow keys.
+- Mouse look.
+- Touch navigation.
+- Mobile virtual joystick.
+- Gamepad support.
+- Walking.
+- Running where appropriate.
+- Stair navigation.
+- Door interaction.
+- Collision detection.
+- Camera height adjustment.
+- Seated mode.
+- Standing mode.
+
+Users must be able to move continuously between:
+
+- Exterior.
+- Parking area.
+- Main entrance.
+- Reception.
+- Ticket counters.
+- Concession areas.
+- Waiting lounge.
+- VIP lounge.
+- Restrooms.
+- Corridors.
+- Auditorium.
+- Seating sections.
+- Emergency exits.
+
+Prevent users from walking through walls, seats, doors and architectural objects.
+
+All areas should be connected naturally.
+
+## 11. Cinematic Drone and Automated Tour
+
+Create a dedicated button called "Explore Cinema".
+
+When activated, launch a professionally directed cinematic camera tour.
+
+The tour should:
+
+1. Begin with an aerial drone view of the cinema building.
+2. Fly around the exterior architecture.
+3. Approach the main entrance.
+4. Enter the building smoothly.
+5. Explore the main lobby.
+6. Pass the ticket booking counters.
+7. Explore the popcorn and beverage counters.
+8. Pass through the waiting lounge.
+9. Explore the VIP lounge.
+10. Navigate through the corridors.
+11. Enter the main auditorium.
+12. Reveal the complete seating layout.
+13. Fly across the cinema rows.
+14. Showcase the VIP seating section.
+15. Showcase the giant cinema screen.
+16. Pass through the aisles.
+17. Showcase the entrances and emergency exits.
+18. Finish at a selected cinema seat.
+
+Use Unreal Engine Sequencer and cinematic camera systems.
+
+Include:
+
+- Smooth camera paths.
+- Cinematic acceleration and deceleration.
+- Natural camera movements.
+- Professional architectural framing.
+- Collision-free navigation.
+- Controlled depth of field.
+- Smooth exposure transitions.
+- Optional cinematic background music.
+
+Allow users to pause, resume, skip or exit the automated tour at any time.
+
+## 12. 360-Degree Panorama Experience
+
+Create a dedicated 360° exploration mode.
+
+Provide panoramic viewpoints throughout the cinema:
+
+- Building exterior.
+- Main entrance.
+- Reception.
+- Ticket counters.
+- Concession area.
+- Waiting lounge.
+- VIP lounge.
+- Auditorium entrance.
+- Front seating section.
+- Middle seating section.
+- Rear seating section.
+- VIP seating.
+- Cinema screen area.
+- Emergency exits.
+
+Allow users to rotate freely in all directions and move between panoramic viewpoints.
+
+Use the real-time 3D environment rather than static panoramic images wherever possible.
+
+## 13. Interactive Architectural Floor Plan
+
+Create an interactive architectural floor plan.
+
+Support:
+
+- Top-down view.
+- Orthographic view.
+- 3D isometric view.
+- Zoom in and out.
+- Rotation.
+- Floor selection where applicable.
+- Building overview.
+- Auditorium overview.
+- Seating layout.
+- Entrance locations.
+- Emergency exit locations.
+- Restroom locations.
+- VIP facilities.
+- Concession areas.
+- Accessible pathways.
+- Current user position.
+
+Allow users to click any accessible location on the floor plan and smoothly navigate to that position.
+
+Synchronize the floor plan with the user's actual position inside the 3D environment.
+
+## 14. Emergency Exits and Interactive Wayfinding
+
+Create a realistic wayfinding and navigation system.
+
+Include:
+
+- Illuminated emergency exit signs.
+- Emergency exit doors.
+- Main entrance doors.
+- Accessible routes.
+- Directional signage.
+- Emergency assembly area.
+- Interactive navigation arrows.
+- Floor guidance indicators.
+- Route distance.
+- Estimated walking distance.
+
+Add a dedicated button called "Find Nearest Exit".
+
+When activated:
+
+1. Identify the user's current position.
+2. Calculate a valid navigable route using Unreal Engine Navigation Mesh.
+3. Identify the nearest available exit.
+4. Highlight the route inside the 3D environment.
+5. Display directional floor arrows.
+6. Display the destination.
+7. Update the route as the user moves.
+
+Add a separate accessibility navigation option that prioritizes accessible routes.
+
+Include an emergency lighting demonstration mode.
+
+This functionality is a conceptual simulation and must not be presented as a certified emergency evacuation or life-safety system.
+
+## 15. Realistic Human Characters and Audience Simulation
+
+Populate the cinema environment with optional realistic human characters.
+
+Include:
+
+- Reception staff.
+- Ticket counter staff.
+- Concession staff.
+- Customers waiting in the lobby.
+- Customers walking through corridors.
+- Customers entering the auditorium.
+- Customers sitting in cinema seats.
+
+Use professionally designed and appropriately licensed human character assets.
+
+Where appropriate, use MetaHuman or optimized realistic character models.
+
+Characters should have natural animations:
+
+- Walking.
+- Standing.
+- Sitting.
+- Talking.
+- Using mobile phones.
+- Carrying popcorn.
+- Entering and leaving the auditorium.
+
+Provide an audience density control:
+
+- Empty Cinema.
+- 25% Occupancy.
+- 50% Occupancy.
+- 75% Occupancy.
+- Full Cinema.
+
+Audience characters should help customers understand realistic seat visibility and viewing obstructions.
+
+Optimize character rendering to maintain performance.
+
+## 16. Movie Selection and Showtime Booking
+
+Create a premium movie selection interface.
+
+Include:
+
+- Movie posters.
+- Movie title.
+- Movie description.
+- Genre.
+- Duration.
+- Age classification.
+- Language.
+- Available subtitles.
+- Movie trailer.
+- Available showtimes.
+- Cinema hall selection.
+- Available ticket categories.
+- Ticket prices.
+- Seat availability.
+
+Allow users to select a movie, choose a showtime, explore the cinema and select their preferred seats.
+
+Use clearly labeled demonstration content unless connected to a legitimate movie information provider.
+
+## 17. Food and Beverage Experience
+
+Create an interactive cinema concession experience.
+
+Include:
+
+- Popcorn.
+- Soft drinks.
+- Nachos.
+- Chocolate.
+- Snacks.
+- Coffee.
+- Premium food combinations.
+- Family packages.
+
+Display high-quality product images, prices, descriptions and available sizes.
+
+Allow customers to add products to their booking.
+
+Include:
+
+- Product customization.
+- Quantity selection.
+- Shopping cart.
+- Price calculation.
+- Order summary.
+- Simulated checkout.
+
+Where possible, allow users to inspect selected products as interactive 3D models.
+
+## 18. Complete Booking Journey
+
+Implement a complete end-to-end customer journey:
+
+1. Select movie.
+2. Select date.
+3. Select showtime.
+4. Select cinema hall.
+5. Explore the cinema.
+6. Preview available seats.
+7. Compare seat perspectives.
+8. Select preferred seats.
+9. Select food and beverages.
+10. Review booking details.
+11. Confirm booking.
+12. Simulate payment.
+13. Generate a digital cinema ticket.
+14. Display a demonstration QR code.
+15. Provide navigation from the cinema entrance to the selected seat.
+
+All prices, seat availability and payments should be clearly identified as demonstration data unless a real backend is connected.
+
+## 19. Spatial Audio and Cinema Atmosphere
+
+Implement immersive environmental audio.
+
+Include:
+
+- Lobby ambience.
+- Background conversations.
+- Footsteps.
+- Door opening sounds.
+- Popcorn machine sounds.
+- Concession area ambience.
+- Ventilation sounds.
+- Auditorium ambience.
+- Audience movement.
+- Cinema surround sound simulation.
+- Optional background music.
+
+Use Unreal Engine spatial audio and attenuation systems.
+
+Audio should change naturally depending on the user's location.
+
+Provide independent controls for:
+
+- Movie audio.
+- Environmental audio.
+- Background music.
+- Sound effects.
+- Master volume.
+- Mute.
+
+Use appropriately licensed audio assets.
+
+## 20. Virtual Reality Support
+
+Implement optional immersive VR support using OpenXR.
+
+Support compatible VR headsets where technically available.
+
+Include:
+
+- Head tracking.
+- Controller-based navigation.
+- Teleportation.
+- Free movement.
+- Seat selection.
+- Seated viewing mode.
+- 360-degree exploration.
+- Interactive controls.
+
+For unsupported devices, provide standard desktop and mobile exploration.
+
+Do not claim that browser-based immersive VR is available through Pixel Streaming unless the required XR integration has been implemented and tested.
+
+## 21. Premium User Interface
+
+Create a sophisticated, modern, cinematic interface.
+
+The 3D cinema environment must occupy most of the screen.
+
+Use:
+
+- Dark charcoal backgrounds.
+- Premium typography.
+- Minimal floating control panels.
+- Subtle glassmorphism.
+- Refined icons.
+- Smooth micro-interactions.
+- Elegant transitions.
+- Collapsible side panels.
+- Responsive layouts.
+- Fullscreen exploration.
+- Minimal visual distractions.
+
+Avoid oversized cards, excessive gradients, unnecessary dashboard components and generic website templates.
+
+Support both Arabic and English.
+
+Implement complete RTL support for Arabic.
+
+Use IBM Plex Sans Arabic or another professionally licensed Arabic typeface.
+
+Include Dark Mode and Light Mode for the interface without unintentionally changing the physical cinema lighting.
+
+## 22. Main Interactive Control Panel
+
+Create a compact floating toolbar containing:
+
+- Explore Cinema.
+- Cinematic Tour.
+- Free Walk.
+- Drone View.
+- Select Seats.
+- Preview My Seat.
+- Compare Seats.
+- 360° View.
+- Floor Plan.
+- VR Mode.
+- Load YouTube Video.
+- Movie Controls.
+- Lighting Controls.
+- Audience Density.
+- Find Nearest Exit.
+- Food and Drinks.
+- Book Tickets.
+- Graphics Settings.
+- Audio Settings.
+- Fullscreen.
+- Reset Camera.
+- Language Switcher.
+
+All buttons must be functional.
+
+Do not create decorative buttons without implemented behavior.
+
+## 23. Graphics Quality Settings
+
+Provide multiple graphics quality presets:
+
+### Low
+
+Optimized for basic devices and limited connections.
+
+### Medium
+
+Balanced performance and visual quality.
+
+### High
+
+High-quality materials, lighting and architectural details.
+
+### Ultra
+
+Maximum practical visual fidelity using advanced Unreal Engine rendering features.
+
+### Cinematic
+
+Prioritize maximum image quality for architectural inspection and cinematic presentations, even at reduced frame rates.
+
+Allow adjustment of:
+
+- Rendering resolution.
+- Texture quality.
+- Shadow quality.
+- Reflection quality.
+- Global illumination quality.
+- Anti-aliasing.
+- Character density.
+- Post-processing.
+- Ray tracing where supported.
+- Frame rate limits.
+- Streaming quality.
+
+## 24. Performance Optimization
+
+Optimize the project without sacrificing its premium visual appearance.
+
+Use:
+
+- Nanite-compatible static geometry.
+- Instanced Static Meshes.
+- Hierarchical Instanced Static Meshes.
+- Level of Detail systems.
+- Texture streaming.
+- Virtual textures where appropriate.
+- Occlusion culling.
+- Frustum culling.
+- World Partition where appropriate.
+- Optimized skeletal meshes.
+- Optimized character animations.
+- Efficient material instances.
+- Asset caching.
+- Adaptive rendering resolution.
+- Dynamic scalability settings.
+- Efficient lighting configurations.
+
+Target smooth real-time interaction on supported hardware.
+
+Avoid unnecessary duplication of geometry and materials.
+
+Prioritize visual fidelity while maintaining responsive controls.
+
+## 25. Browser Deployment and Pixel Streaming
+
+Deliver the Unreal Engine experience through a modern web browser using Unreal Engine Pixel Streaming and WebRTC.
+
+Create a responsive web frontend using:
+
+- React.
+- TypeScript.
+- Modern CSS.
+- Unreal Engine Pixel Streaming frontend libraries.
+- Supported WebRTC communication mechanisms.
+
+The web frontend must communicate with the Unreal Engine application.
+
+Synchronize:
+
+- Seat selection.
+- Camera movement.
+- Lighting presets.
+- Movie controls.
+- Floor plan navigation.
+- Audience density.
+- Emergency exit guidance.
+- Booking information.
+- Graphics settings.
+- Audio settings.
+
+Implement supported bidirectional communication between the browser and Unreal Engine.
+
+Prepare the project for deployment to:
+
+- Local Unreal Engine workstation.
+- Compatible dedicated GPU server.
+- Cloud GPU infrastructure.
+- Pixel Streaming hosting environment.
+
+Provide configurable streaming server settings.
+
+Do not hardcode credentials or private API keys.
+
+Provide secure configuration through environment variables.
+
+## 26. Google AI Studio Execution Strategy
+
+Google AI Studio may not provide a native Unreal Engine editor, Windows build environment or compatible GPU runtime.
+
+Detect the actual capabilities of the available execution environment before implementation.
+
+If Unreal Engine execution is supported:
+
+- Create the actual Unreal Engine project.
+- Configure the rendering engine.
+- Import the required assets.
+- Build the complete cinema environment.
+- Implement the interactive systems.
+- Configure Pixel Streaming.
+- Test the application.
+
+If Unreal Engine cannot run directly inside the available environment:
+
+- Generate the Unreal Engine project structure.
+- Generate the required C++ source files.
+- Generate Unreal Engine configuration files.
+- Generate asset import and environment generation scripts.
+- Generate Blueprint implementation specifications.
+- Generate navigation and seat management systems.
+- Generate lighting control systems.
+- Generate cinematic camera configurations.
+- Generate Media Framework integration.
+- Generate Pixel Streaming communication handlers.
+- Generate the React and TypeScript web frontend.
+- Generate deployment instructions.
+- Generate dependency installation scripts.
+- Generate a structured asset manifest.
+
+Where technically possible, provide a functional browser-based preview using Three.js, React Three Fiber or WebGPU while preserving compatibility with the final Unreal Engine architecture.
+
+The browser preview must be explicitly identified as a preview implementation, not an actual Unreal Engine runtime.
+
+Do not claim Unreal Engine, Nanite, Lumen or hardware ray tracing is running unless the corresponding technology has actually been initialized and verified.
+
+## 27. External Assets and Libraries
+
+Actively use external resources to achieve the highest possible visual fidelity.
+
+Search for, download, import and integrate appropriately licensed resources from:
+
+- Fab.
+- Megascans.
+- Poly Haven.
+- ambientCG.
+- Sketchfab.
+- Professional architectural visualization asset libraries.
+- Compatible Unreal Engine Marketplace resources.
+- Open-source software repositories.
+
+Prioritize professionally modeled cinema chairs, architectural materials, realistic furniture, lighting fixtures, acoustic panels, human characters and environmental details.
+
+Use external libraries and plugins whenever they significantly improve rendering, interaction, navigation, animation, performance or visual realism.
+
+Do not merely recommend external assets.
+
+Integrate them into the actual project wherever the environment permits.
+
+Maintain an asset manifest documenting asset sources, licenses and dependencies.
+
+If an asset is unavailable, create or substitute a high-quality alternative rather than leaving broken objects or obvious placeholders.
+
+Do not purchase paid assets or activate paid cloud infrastructure without explicit approval.
+
+## 28. Quality Assurance
+
+Before considering the project complete, verify:
+
+- All cinema seats are correctly positioned.
+- Seat IDs are unique.
+- Seat selection works.
+- Camera transitions work.
+- Seat viewing perspectives are realistic.
+- Camera collision works.
+- Users can navigate stairs and corridors.
+- Doors function correctly.
+- Lighting controls work.
+- Video playback works for supported sources.
+- Emergency route guidance works.
+- Floor plans remain synchronized.
+- Booking calculations are correct.
+- Arabic RTL layouts work.
+- Mobile controls work.
+- Fullscreen mode works.
+- Graphics settings work.
+- Audio controls work.
+- Missing assets are handled.
+- Runtime errors are resolved.
+- Pixel Streaming communication works when the required runtime is available.
+
+Perform visual inspection from multiple camera positions.
+
+Correct unrealistic architectural proportions, poor lighting, texture stretching, floating objects, camera clipping, excessive darkness and low-quality assets.
+
+## 29. Strict Visual Quality Requirements
+
+The visual result must not resemble a basic WebGL demonstration, low-poly game, generic 3D template or primitive procedural environment.
+
+Avoid:
+
+- Block-shaped cinema chairs.
+- Empty architectural spaces.
+- Flat walls without material detail.
+- Repetitive low-quality textures.
+- Excessive neon lighting.
+- Unrealistic reflections.
+- Excessive darkness.
+- Poorly proportioned rooms.
+- Floating furniture.
+- Cartoonish characters.
+- Generic placeholders.
+- Unrealistic camera movement.
+- Fake 3D effects.
+- Static images presented as interactive environments.
+
+Every scene should resemble a real premium cinema photographed using professional architectural photography.
+
+Prioritize realism, architectural detail, material quality, lighting accuracy and immersive interaction.
+
+## 30. Final Deliverables
+
+Deliver a complete, modular and maintainable project containing:
+
+- Unreal Engine 5 project structure.
+- Interactive 3D cinema environment.
+- Approximately 350 selectable seating positions.
+- Professional 3D assets.
+- Interactive lighting system.
+- Functional media playback integration.
+- YouTube integration using supported methods.
+- Interactive floor plans.
+- First-person navigation.
+- Cinematic drone tour.
+- 360-degree exploration.
+- Emergency wayfinding simulation.
+- Audience simulation.
+- Movie booking interface.
+- Food and beverage ordering.
+- Simulated checkout.
+- Digital tickets.
+- Arabic and English interfaces.
+- Pixel Streaming frontend.
+- Deployment configuration.
+- Asset manifest.
+- Setup documentation.
+
+## Final Execution Directive
+
+Do not stop at creating a project plan, wireframes, design mockups, screenshots or theoretical explanations.
+
+Start implementing the actual working application immediately.
+
+The highest priority is achieving a genuinely photorealistic, premium, immersive and interactive 3D cinema environment.
+
+Preserve all interactive functionality while continuously improving the visual quality.
+
+Use additional compatible external libraries, plugins, professional assets and advanced rendering technologies whenever necessary.
+
+Make the final experience feel like entering, exploring and sitting inside a real luxury cinema.
+
+Target the highest practical visual quality achievable with Unreal Engine 5, while maintaining realistic interaction, architectural accuracy and functional customer experience.
+
+Build the experience, test it, fix the issues and clearly distinguish completed functionality from features requiring external runtime infrastructure.

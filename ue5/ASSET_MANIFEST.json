@@ -1,0 +1,53 @@
+{
+  "project": "Immersive Cinema 5",
+  "runtimeModes": {
+    "browserPreview": "Three.js WebGL2 procedural PBR architectural preview (zero external unhosted 404 assets)",
+    "productionUE5": "Unreal Engine 5.4 (Nanite, Lumen GI/Reflections, Virtual Shadow Maps, OpenXR, Pixel Streaming)"
+  },
+  "generatedVisualAssets": [
+    {
+      "id": "poster_chronos_horizon",
+      "path": "/src/assets/images/poster_chronos_horizon_1795518536679.jpg",
+      "usage": "Movie booking showcase & 3D lobby illuminated poster frame",
+      "license": "Project-generated original artwork"
+    },
+    {
+      "id": "poster_desert_mirage",
+      "path": "/src/assets/images/poster_desert_mirage_1795518534965.jpg",
+      "usage": "Movie booking showcase & 3D lobby illuminated poster frame",
+      "license": "Project-generated original artwork"
+    },
+    {
+      "id": "poster_solaris_odyssey",
+      "path": "/src/assets/images/poster_solaris_odyssey_1795518542684.jpg",
+      "usage": "Movie booking showcase & 3D lobby illuminated poster frame",
+      "license": "Project-generated original artwork"
+    },
+    {
+      "id": "concession_cinema_combo",
+      "path": "/src/assets/images/concession_cinema_combo_1795518537267.jpg",
+      "usage": "Food & beverage ordering interface",
+      "license": "Project-generated original artwork"
+    }
+  ],
+  "recommendedUE5ExternalLibraries": [
+    {
+      "category": "Cinema Seats (Standard / Premium / VIP Recliners)",
+      "source": "Fab / Quixel Megascans",
+      "license": "Fab Standard License",
+      "notes": "Replace HISM placeholders in ACinemaSeatManager with Nanite stitched leather cinema chairs."
+    },
+    {
+      "category": "Architectural Surfaces (Veined Marble, Fluted Walnut, Woven Carpet)",
+      "source": "ambientCG / Poly Haven (CC0)",
+      "license": "CC0 Public Domain",
+      "notes": "4K/8K PBR maps (Albedo, Normal, Roughness, AO) for Lobby marble and Auditorium acoustic panels."
+    },
+    {
+      "category": "Human Staff & Audience Characters",
+      "source": "MetaHuman Creator (UE5)",
+      "license": "Unreal Engine EULA",
+      "notes": "LOD-optimized seated and walking audience characters bound to AudienceDensity parameter."
+    }
+  ]
+}

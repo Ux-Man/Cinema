@@ -1,0 +1,6 @@
+{
+  "name": "Immersive Cinema 5",
+  "description": "Interactive 3D virtual cinema experience featuring a 352-seat architectural auditorium, seated POV preview, seat comparison, dynamic lighting, live cinema screen, wayfinding, and UE5 Pixel Streaming architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
